@@ -34,7 +34,7 @@ items:
     - imageChange:
       type: ImageChange
     - type: ConfigChange
-status: {}
+  status: {}
 kind: List
 metadata:
   resourceVersion: ""

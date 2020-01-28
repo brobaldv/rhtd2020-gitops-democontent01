@@ -21,7 +21,7 @@ items:
     source:
       git:
         ref: master
-        uri: http://git.brobald.home/Vincentb/WebHelloDevoteam.git
+        uri: https://github.com/brobaldv/rhtd2020-build01.git
       type: Git
     strategy:
       sourceStrategy:
@@ -34,14 +34,6 @@ items:
     - imageChange:
       type: ImageChange
     - type: ConfigChange
-    - generic:
-        secret: ba7b9c196a7917b4
-      type: Generic
-    - github:
-        secret: 8d1fbff9a18f0e2d
-      type: GitHub
-  status:
-    lastVersion: 1
 kind: List
 metadata:
   resourceVersion: ""
